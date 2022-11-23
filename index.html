@@ -5,25 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <title>Estudio</title>
   </head>
-  <body>
+  <body class="container">
     <header class="header">
-        <!-- barra de navegacion -->
-        <nav class="navbar">
-            <ul>
-                <li class="logo"><a href="#">WebStudio</a></li>
-                <li class="navbar-link studio"><a href="index.html">Estudio</a></li>
-                <li class="navbar-link folio"><a href="portfolio.html">Portafolio</a></li>
-                <li class="navbar-link contact">Contactos</li>
-            </ul>
-        </nav>
-        <p class="email">info@devstudio.com<p>
-        <p class="phone">+52 5555296000<p>
-        <article class="header_banner">
-            <h1 class="main-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-            <button class="button banner" type="button">Solicite nuestro servicio</button>
-        </article>
+            <!-- barra de navegacion -->
+            <section class="header-box">
+            <nav class="navbar">
+                <ul class="navbar-box">
+                    <a href="#" class="logo">WebStudio</a>
+                    <li class="navbar-link studio"><a href="index.html">Estudio</a></li>
+                    <li class="navbar-link folio"><a href="portfolio.html">Portafolio</a></li>
+                    <li class="navbar-link contact">Contactos</li>
+                </ul>
+            </nav>
+            <address class="direction-box">
+                <p class="direction-box email">info@devstudio.com</p>
+                <p class="direction-box phone">+52 55 5529 6000</p>
+            </address>   
+            </section>
+        
+            <article class="header_banner">
+                <h1 class="main-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+                <button class="button banner" type="button">Solicite nuestro servicio</button>
+            </article>
+        
     </header>
     <main>
         <!-- principa -->
@@ -62,21 +69,29 @@
         <section class="main-about-team">
             <h2 class="main-about-team-title">Nuestro Equipo</h2>
             <ul class="main-about-team-people">
-                <li><img src="images/andres.jpg" alt="photo andres" width="270"></li>
-                <li><p><span class="main-about-team-people-name">Andrés Cubo</span> Diseñador de Productos</p></li>
-                <li><img src="images/carla.jpg" alt="photo carla" width="270"></li>
-                <li><p><span class="main-about-team-people-name">Carla Palacios</span> Desarrolladora Frontend</p></li>
-                <li><img src="images/mario.jpg" alt="photo mario" width="270"></li>
-                <li><p><span class="main-about-team-people-name">Mario Dorado</span> Marketing</p></li>
-                <li><img src="images/pablo.jpg" alt="photo pablo" width="270"></li>
-                <li><p><span class="main-about-team-people-name">Pablo Mijangos</span>Diseñador IU</p></li>
+                <li>
+                    <img src="images/andres.jpg" alt="photo andres" width="270">
+                    <p><span class="main-about-team-people-name">Andrés Cubo</span> Diseñador de Productos</p>
+                </li>
+                <li>
+                    <img src="images/carla.jpg" alt="photo carla" width="270">
+                    <p><span class="main-about-team-people-name">Carla Palacios</span> Desarrolladora Frontend</p>
+                </li>
+                <li>
+                    <img src="images/mario.jpg" alt="photo mario" width="270">
+                    <p><span class="main-about-team-people-name">Mario Dorado</span> Marketing</p>
+                </li>
+                <li>
+                    <img src="images/pablo.jpg" alt="photo pablo" width="270">
+                    <p><span class="main-about-team-people-name">Pablo Mijangos</span>Diseñador IU</p>
+                </li>
             </ul>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <address>
+            <a href="#" class="logo">WebStudio</a></li>
             <ul class="address">
-                <li class="logo"><a href="#">WebStudio</a></li>
                 <li class="address city">Calz. Ticomán 500, Ciudad de </br> México, CDMX, México</li>
                 <li class="address email">info@example.com</li>
                 <li class="address phone">+52 55 5529 6000 </li>
