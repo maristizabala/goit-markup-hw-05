@@ -71,7 +71,8 @@ body{
 .header-box{
     display: flex;
     width: 1600px;
-    height: 80px;
+    /* height: 80px; */
+    border: 1px solid #ECECEC;
 
 }
 .navbar-box{
@@ -106,6 +107,7 @@ body{
 
 
 
+
 /* contenedor */
 .main-title{
     font-size: 44px;
@@ -134,7 +136,7 @@ body{
 }
 .header_banner{
     width: 1600px;
-    height: 600px;    
+    /* height: 600px;     */
     background-color: var(--background-color);   
     margin-bottom: 95px;
 }
@@ -154,7 +156,7 @@ body{
 
 .main-box{
     width: 1170px;
-    height: 1360px;
+    /* height: 1360px; */
     margin: 106px 215px 82px 215px;
 }
 
@@ -169,7 +171,7 @@ body{
 
 /* contenedor */
 .filters{
-    height: 38px;
+    /* height: 38px; */
     display: flex;
     margin: 0px 297px 34px 297px;
 }
@@ -181,22 +183,22 @@ body{
 }
 .button.web{
     width: 128px ;
-    height: 38px;
+    /* height: 38px; */
     padding: 6px 24px;
 }
 .button.apps{
     width: 145px;
-    height: 38px;
+    /* height: 38px; */
     padding: 6px 24px;
 }
 .button.design{
     width: 103px;
-    height: 38px;
+    /* height: 38px; */
     padding: 6px 26px;
 }
 .button.marketing{
     width: 130px;
-    height: 38px;
+    /* height: 38px; */
     padding: 6px 26px;
 }
 
@@ -210,8 +212,7 @@ body{
 }
 .proyects-container{
     width: 370px;
-    height: 404px;
-    /* margin-right: 30px; */
+    
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
@@ -225,7 +226,7 @@ body{
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
-    
+    margin: 20px 24px 4px 24px;
 
 }
 
@@ -233,15 +234,18 @@ body{
     font-size: 16px;   
     font-weight: 400;
     line-height: 1.8;
-    color: var(--letter-color)
+    color: var(--letter-color);
+    margin: 0px 24px 20px 24px;
     
 }
+
+
 /* main estudio */
 
  /* contenedor */
 .main-caracters{
     width: 1170px;
-    height: 122px;
+    /* height: 122px; */
     font-size: 14px;
     font-weight: 700;
     line-height: 1.17;
@@ -263,7 +267,7 @@ body{
 }
 .main-caracters span{
     width: 270px;
-    height: 101px;
+    /* height: 101px; */
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
@@ -273,7 +277,7 @@ body{
 /* contenedor */
 .us{
     width: 371.15px;
-    height: 46.24px;
+    /* height: 46.24px; */
     font-size: 36px;
     font-weight: 700;
     line-height: 1.17;
@@ -299,7 +303,7 @@ body{
 }
 .main-about-team-title{
     width: 263px;
-    height: 42px;
+    /* height: 42px; */
     font-size: 36px;
     font-weight: 700;
     line-height: 1.17;
@@ -335,6 +339,8 @@ body{
     font-weight: 400;
     line-height: 1.17;
     color:var(--letter-color);
+    /* margin: 30px 86px 30px 86px; */
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -353,8 +359,9 @@ body{
 footer{
     background-color: var(--background-color);
     width: 1600px;
-    height: 252px;
+    /* height: 252px; */
     padding-top:60px ;
+
 }
 
 footer .logo{
@@ -377,7 +384,7 @@ footer .logo{
 }
 .section-redes{
     width: 206px;
-    height: 80px;
+    /* height: 80px; */
     margin: 75px 878px 97px 70px;
 }
 
@@ -386,23 +393,40 @@ footer .logo{
 .facebook,
 .linkedin{
     margin: 20px 10px 0px 0px;
+  
     
 }
 
-.redes > span{
+.title-redes{
     font-size: 700;
     font-weight: 700;
     line-height: 1.17;
     color: #FFFFFF;
+    margin-bottom: 20px;
+
+
 }
 /* contenedor */
 
+.redes{
+    /* margin-left: 70px; */
+    display: flex;
+
+}
+
 .address-footer{
-    width: 231px;
-    /* height: 92px; */
+   
     margin: 9px 70px 0px 215px;
     display: flex;
 
+}
+
+.container-redes{
+    margin-left: 70px;
+
+}
+.container-address{
+    margin-bottom: 60px;
 }
 
 
