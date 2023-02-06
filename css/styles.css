@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;    
     /* max-width: 1200px; */
+    list-style: none;
 }
 
 body{
@@ -19,18 +20,15 @@ body{
 .phone:hover,
 .phone:focus,
 .icons.cel:hover,
-.icons:hover.icon{
+.icons:hover{
     color: #2196F3 !important;
     fill: #2196F3;
     stroke: #2196F3;
 }
 
-/* .phone:hover,
-.phone:focus{
-    color: #2196F3 !important; 
-} */
+
 .icons{
-    width: 16px;
+    width: 20px;
     height: 12px;
     margin: 32px 0 34px 0;
     stroke: grey;
@@ -84,6 +82,7 @@ body{
 :root{
     --background-color: #2F303A;
     --letter-color: #757575;
+    --backgroud-color: #2196f3;
     /* --paddingsection: 0px 0 94px 0; */
 }
 
@@ -295,15 +294,18 @@ body{
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
     margin-bottom:30px;
     border-radius: 4px;   
 }
+
 .icon-caracters{
-    margin: 25px 100px 25px 100px;
+    width: 80px;
+    height: 70px;
 }
+
 
 .one,
 .two,
@@ -385,13 +387,47 @@ body{
 }
 .main-about-team-people > li{
     width: 270px;
-    height: 368px;
+    height: auto;
     margin-right: 37px;
     background-color: white;
     border-end-end-radius: 10px;
     border-bottom-left-radius: 10px ;
     box-shadow: 0px 4px 4px ;
 }
+.main-about-team-people > li ul{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 10px;    
+    
+
+}
+.main-about-team-people > li ul li{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    /* justify-content: center;
+    align-content: center; */
+    /* background-color: red; */
+    padding: 5px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.main-about-team-people > li ul li .icon-social{
+    fill: grey;
+    
+    /* background-color: red; */
+    /* border-radius: 50px; */
+}
+
+.main-about-team-people > li ul li:hover,
+.main-about-team-people > li ul li:hover .icon-social{
+    background-color: var(--backgroud-color);
+    fill:white;
+    
+}
+
 .main-about-team-people p{
     font-size: 16px;
     font-weight: 400;
@@ -446,14 +482,14 @@ footer .logo{
     margin: 75px 878px 97px 70px;
 }
 
-.instagram,
+/* .instagram,
 .twitter,
 .facebook,
 .linkedin{
     margin: 20px 10px 0px 0px;
   
     
-}
+} */
 
 .title-redes{
     font-size: 700;
