@@ -15,9 +15,9 @@
             <nav class="navbar">
                 <ul class="navbar-box">
                     <a href="#" class="logo">WebStudio</a>
-                    <li class="navbar-link studio"><a href="index.html">Estudio</a></li>
+                    <li class="navbar-link studio"><a class="select studio" href="index.html">Estudio</a></li>
                
-                    <li class="navbar-link folio"><a href="portfolio.html">Portafolio</a></li>
+                    <li class="navbar-link folio"><a  class="select folio" href="portfolio.html">Portafolio</a></li>
                     <li class="navbar-link contact">Contactos</li>
                 </ul>
             </nav>
@@ -35,8 +35,19 @@
         
             <article class="header_banner">
                 <h1 class="main-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-                <button class="button banner" type="button">Solicite nuestro servicio</button>
+                <button data-modal-open class="button banner" type="button">Solicite nuestro servicio</button>
             </article>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <p>
+                    
+                    </p>
+                    <button data-modal-close class="cerrar">X</button>
+
+                </div>
+
+            </div>
+          
         
     </header>
     <main>
@@ -89,9 +100,21 @@
             <div class="main-box-index-sec">
                 <h2 class="us">A qué nos dedicamos</h2>
                 <ul class="img-box">
-                    <li><img src="images/caja_1.jpg" alt="keyboard" width="373.16" class="img-us"/></li>
-                    <li><img src="images/caja_2.jpg" alt="phone" width="373.16" class="img-us"/></li>
-                    <li><img src="images/caja_3.jpg" alt="tablet" width="373.16" class="img-us"/></li>
+                    <li class="img-box-box">
+                        <img src="images/caja_1.jpg" alt="keyboard" width="373.16" class="img-us"/>
+                        <p >APLICACIONES DE ESCRITORIO</p>
+                    </li>
+
+                    <li class="img-box-box">
+                        <img src="images/caja_2.jpg" alt="phone" width="373.16" class="img-us"/>
+                        <p >APLICACIONES MOVILES</p>
+                    </li>
+
+                    <li class="img-box-box">
+                        <img src="images/caja_3.jpg" alt="tablet" width="373.16" class="img-us"/>
+                        <p >SOLUCIONES DE DISEÑO</p>
+                    </li>
+                    
                 </ul>
             </div>
         </section>
@@ -285,6 +308,6 @@
         </address>
        
     </footer>
-
+    <script src="./js/modal.js"></script>
   </body>
 </html>
